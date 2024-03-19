@@ -1,7 +1,7 @@
 # Calculadora
 
 ## Descrição
-Este projeto é uma calculadora simples desenvolvida no Android Studio, que permite realizar operações matemáticas básicas como adição, subtração, multiplicação e divisão.
+Este projeto é uma calculadora simples desenvolvida no Android Studio com Java, que permite realizar operações matemáticas básicas como adição, subtração, multiplicação e divisão.
 
 ## Pré-requisitos
 - Android Studio instalado na sua máquina.
@@ -28,15 +28,6 @@ Este projeto é uma calculadora simples desenvolvida no Android Studio, que perm
 ## Screenshots
 ![Screenshot 1](imagens/Screenshot_1.png)
 ![Screenshot 2](imagens/Screenshot_2.png)
-
-## Contribuindo
-Se deseja contribuir com o projeto, siga estes passos:
-1. Faça um fork do projeto.
-2. Crie uma nova branch (`git checkout -b feature/nova-feature`).
-3. Faça commit das suas alterações (`git commit -am 'Adicionando nova feature'`).
-4. Faça push para a branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
-
 ---
 
 Este README serve como um guia básico para entender e utilizar o projeto Calculadora desenvolvido no Android Studio. Sinta-se à vontade para personalizar conforme necessário.
