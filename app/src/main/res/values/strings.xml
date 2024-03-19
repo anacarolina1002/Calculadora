@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="formato_operacao">%s %c</string>
+    <string name="formato_operacao_completa">%s %s = %s</string>
+</resources>
