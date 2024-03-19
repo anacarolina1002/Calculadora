@@ -26,16 +26,6 @@
         android:textAlignment="center"
         android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/tvExpressao"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textAlignment="center"
-        android:text=""
-        android:visibility="gone"
-        android:padding="8dp"/>
-
     <LinearLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
@@ -54,7 +44,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onClearClick"
+                android:onClick="onCliqueLimpar"
                 android:text="C"
                 style="?android:attr/buttonBarButtonStyle" />
 
@@ -63,7 +53,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onBackspaceClick"
+                android:onClick="onCliqueVoltar"
                 android:text="⌫"
                 style="?android:attr/buttonBarButtonStyle" />
 
@@ -81,7 +71,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onNumberClick"
+                android:onClick="onCliqueNumero"
                 android:tag="7"
                 android:text="7"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -91,7 +81,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onNumberClick"
+                android:onClick="onCliqueNumero"
                 android:tag="8"
                 android:text="8"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -101,7 +91,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onNumberClick"
+                android:onClick="onCliqueNumero"
                 android:tag="9"
                 android:text="9"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -111,7 +101,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onOperatorClick"
+                android:onClick="onCliqueOperador"
                 android:tag="/"
                 android:text="/"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -130,7 +120,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onNumberClick"
+                android:onClick="onCliqueNumero"
                 android:tag="4"
                 android:text="4"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -140,7 +130,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onNumberClick"
+                android:onClick="onCliqueNumero"
                 android:tag="5"
                 android:text="5"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -150,7 +140,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onNumberClick"
+                android:onClick="onCliqueNumero"
                 android:tag="6"
                 android:text="6"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -160,7 +150,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onOperatorClick"
+                android:onClick="onCliqueOperador"
                 android:tag="*"
                 android:text="*"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -179,7 +169,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onNumberClick"
+                android:onClick="onCliqueNumero"
                 android:tag="1"
                 android:text="1"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -189,7 +179,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onNumberClick"
+                android:onClick="onCliqueNumero"
                 android:tag="2"
                 android:text="2"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -199,7 +189,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onNumberClick"
+                android:onClick="onCliqueNumero"
                 android:tag="3"
                 android:text="3"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -209,7 +199,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onOperatorClick"
+                android:onClick="onCliqueOperador"
                 android:tag="-"
                 android:text="-"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -228,7 +218,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onNumberClick"
+                android:onClick="onCliqueNumero"
                 android:tag="0"
                 android:text="0"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -238,7 +228,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onNumberClick"
+                android:onClick="onCliqueNumero"
                 android:tag="."
                 android:text="."
                 style="?android:attr/buttonBarButtonStyle" />
@@ -248,7 +238,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onOperatorClick"
+                android:onClick="onCliqueOperador"
                 android:tag="+"
                 android:text="+"
                 style="?android:attr/buttonBarButtonStyle" />
@@ -258,7 +248,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="onEqualsClick"
+                android:onClick="onCliqueIgual"
                 android:text="="
                 style="?android:attr/buttonBarButtonStyle" />
 

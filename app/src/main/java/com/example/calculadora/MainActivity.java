@@ -59,6 +59,14 @@ public class MainActivity extends AppCompatActivity {
         tvOperacao.setText("");
     }
 
+    public void onCliqueVoltar(View view) {
+        int length = numeroAtual.length();
+        if (length > 0) {
+            numeroAtual.deleteCharAt(length - 1);
+            tvResultado.setText(numeroAtual.toString());
+        }
+    }
+
     private double calcularResultado() {
         double num1 = Double.parseDouble(tvOperacao.getText().toString().split(" ")[0]);
         double num2 = Double.parseDouble(numeroAtual.toString());
