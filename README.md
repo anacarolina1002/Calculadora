@@ -26,8 +26,8 @@ Este projeto é uma calculadora simples desenvolvida no Android Studio, que perm
 - Tratamento de erros básicos.
 
 ## Screenshots
-![Screenshot1](Calculadora/imagens/Screenshot_1.png)
-![Screenshot2](Calculadora/imagens/Screenshot_2.png)
+![Screenshot 1](imagens/Screenshot_1.png)
+![Screenshot 2](imagens/Screenshot_2.png)
 
 ## Contribuindo
 Se deseja contribuir com o projeto, siga estes passos:
