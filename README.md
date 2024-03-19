@@ -1,61 +1,42 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-</head>
-<body>
-    <h1>Calculadora</h1>
+# Calculadora
 
-    <h2>Descrição</h2>
-    <p>Este projeto é uma calculadora simples desenvolvida no Android Studio, que permite realizar operações matemáticas básicas como adição, subtração, multiplicação e divisão.</p>
+## Descrição
+Este projeto é uma calculadora simples desenvolvida no Android Studio, que permite realizar operações matemáticas básicas como adição, subtração, multiplicação e divisão.
 
-    <h2>Pré-requisitos</h2>
-    <ul>
-        <li>Android Studio instalado na sua máquina.</li>
-        <li>Conhecimento básico de desenvolvimento Android.</li>
-    </ul>
+## Pré-requisitos
+- Android Studio instalado na sua máquina.
+- Conhecimento básico de desenvolvimento Android.
 
-    <h2>Instalação</h2>
-    <ol>
-        <li>Abra o Android Studio.</li>
-        <li>Importe o projeto selecionando a opção "Import Project".</li>
-        <li>Aguarde o Android Studio sincronizar e baixar as dependências do projeto.</li>
-    </ol>
+## Instalação
+1. Abra o Android Studio.
+2. Importe o projeto selecionando a opção "Import Project".
+3. Aguarde o Android Studio sincronizar e baixar as dependências do projeto.
 
-    <h2>Utilização</h2>
-    <ol>
-        <li>Abra o projeto no Android Studio.</li>
-        <li>Compile e execute o aplicativo em um emulador ou dispositivo Android conectado.</li>
-        <li>Use a calculadora para realizar operações matemáticas básicas.</li>
-    </ol>
+## Utilização
+1. Abra o projeto no Android Studio.
+2. Compile e execute o aplicativo em um emulador ou dispositivo Android conectado.
+3. Use a calculadora para realizar operações matemáticas básicas.
 
-    <h2>Funcionalidades</h2>
-    <ul>
-        <li>Adição de números.</li>
-        <li>Subtração de números.</li>
-        <li>Multiplicação de números.</li>
-        <li>Divisão de números.</li>
-        <li>Botão de limpar para zerar o visor.</li>
-        <li>Tratamento de erros básicos.</li>
-    </ul>
+## Funcionalidades
+- Adição de números.
+- Subtração de números.
+- Multiplicação de números.
+- Divisão de números.
+- Botão de limpar para zerar o visor.
+- Tratamento de erros básicos.
 
-    <h2>Screenshots</h2>
-    <img src="Calculadora/imagens/Screenshot_1.png" alt="Screenshot1" width="200"/>
-    <img src="Calculadora/imagens/Screenshot_2.png" alt="Screenshot2" width="200"/>
+## Screenshots
+![Screenshot1](Calculadora/imagens/Screenshot_1.png)
+![Screenshot2](Calculadora/imagens/Screenshot_2.png)
 
-    <h2>Contribuindo</h2>
-    <ol>
-        <li>Faça um fork do projeto.</li>
-        <li>Crie uma nova branch (<code>git checkout -b feature/nova-feature</code>).</li>
-        <li>Faça commit das suas alterações (<code>git commit -am 'Adicionando nova feature'</code>).</li>
-        <li>Faça push para a branch (<code>git push origin feature/nova-feature</code>).</li>
-        <li>Abra um Pull Request.</li>
-    </ol>
+## Contribuindo
+Se deseja contribuir com o projeto, siga estes passos:
+1. Faça um fork do projeto.
+2. Crie uma nova branch (`git checkout -b feature/nova-feature`).
+3. Faça commit das suas alterações (`git commit -am 'Adicionando nova feature'`).
+4. Faça push para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
 
-    <hr>
+---
 
-    <p>Este README serve como um guia básico para entender e utilizar o projeto Calculadora desenvolvido no Android Studio. Sinta-se à vontade para personalizar conforme necessário.</p>
-</body>
-</html>
+Este README serve como um guia básico para entender e utilizar o projeto Calculadora desenvolvido no Android Studio. Sinta-se à vontade para personalizar conforme necessário.
